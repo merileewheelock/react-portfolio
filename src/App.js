@@ -7,14 +7,14 @@ import Home from './components/Home';
 class App extends Component {
 	render() {
 		return (
-            <Router>
-    			<div className="App">
-                    <NavBar />
-                    <div className="container">
-                        <Route exact path="/" component={Home} />
-                    </div>
-                </div>
-            </Router>
+			<Router>
+				<div className="App">
+					<NavBar />
+					<div className="container">
+						<Route exact path="/" component={Home} />
+					</div>
+				</div>
+			</Router>
 		);
 	}
 }
