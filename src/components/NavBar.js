@@ -4,18 +4,14 @@ import { Link } from 'react-router-dom';
 class NavBar extends Component{
 	render(){
 		return(
-			<nav className="navbar navbar-default">
-				<div className="container-fluid">
-					<div className="navbar-header">
-						<Link to="/">merilee</Link>
-					</div>
-					<ul className="nav navbar-nav">
-						<li>about</li>
-						<li>portfolio</li>
-						<li>contact</li>
-					</ul>
-				</div>
-			</nav>
+			<div className="navigation">
+				<ul>
+					<li><Link to="/">welcome</Link></li>
+					<li><Link to="/about">about</Link></li>
+					<li><Link to="/portfolio">portfolio</Link></li>
+					<li><Link to="/contact">contact</Link></li>
+				</ul>
+			</div>
 		)
 	}
 }
