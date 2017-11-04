@@ -3,13 +3,13 @@ import React, { Component } from 'react';
 class About extends Component{
 	render(){
 		return(
-			<div className="page">
+			<div className="page container">
 				<h1>About</h1>
 				<div className="row">
-					<div className="col-sm-5">
+					<div className="col-sm-6">
 						<p>Full-stack web developer trained at <a href="http://www.digitalcrafts.com/">DigitalCrafts</a> in Atlanta, GA. I am also a proud graduate from the Georgia Institute of Technology. I recently moved to beautiful Sunnyvale, CA.</p>
 					</div>
-					<div className="col-sm-5 col-sm-offset-1">
+					<div className="col-sm-6">
 						<p>I am passionate about organized code and clean layouts. Outside of coding, I enjoy hiking with my dog, traveling with my husband, and losing myself in books.</p>
 					</div>
 				</div>
