@@ -27,7 +27,12 @@ i {
   color: #078C49;
 }
 
-/* line 7, ../compass/sass/styles.scss */
+/* line 6, ../compass/sass/styles.scss */
+body, html {
+  height: 100%;
+}
+
+/* line 10, ../compass/sass/styles.scss */
 .page {
   margin-top: 60px;
 }
