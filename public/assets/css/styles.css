@@ -16,7 +16,6 @@ li {
 
 /* line 1, ../compass/sass/_home.scss */
 .home {
-  background: url("../images/mountain.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 100%;
 }
