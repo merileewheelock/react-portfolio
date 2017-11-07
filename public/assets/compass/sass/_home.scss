@@ -1,5 +1,23 @@
-.home{
-	// background: url('../images/mountain.jpg') no-repeat center center fixed;
-	background-size: cover;
-	height: 100%;
+.welcome{
+	font-family: $main-font;
+	color: white;
+	text-shadow: 2px 2px gray;
+	margin-top: 350px;
+	.welcome-msg1{
+		position: relative;
+		// left: 182px;
+		font-size: 70px;
+	}
+	.welcome-msg2{
+		font-size: 70px;
+	}
+}
+
+.welcome-info{
+	font-family: $main-font;
+	font-size: 26.5px;
+	text-shadow: 2px 2px gray;
+	position: relative;
+	color: $green-highlight;
+	margin-top: 20px;
 }

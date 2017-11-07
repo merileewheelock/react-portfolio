@@ -1,0 +1,30 @@
+.project-img{
+	img{
+		border: 3px $green-highlight solid;
+		opacity: 0.9;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	img:hover{
+		border: 3px $yellow-highlight solid;
+		opacity: 1.0;
+	}
+}
+
+.project-text{
+	font-family: $body-font;
+	text-align: center;
+}
+
+.message{
+	margin: auto;
+	background: $yellow-highlight;
+	font-weight: bold;
+	width: 300px;
+	padding: 10px 0;
+}
+
+
+.project-box{
+	// background-color: lightgray;
+}

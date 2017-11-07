@@ -1,4 +1,18 @@
+.about-text{
+	font-family: $body-font;
+}
+
 i{
 	font-size: 3em;
-	color: #078C49;
+	color: $dark-green;
+}
+
+.skill-name{
+	font-family: $body-font;
+	margin-top: 10px;
+	color: gray;
+}
+
+.about-xs-format{
+	font-size: 10px;
 }
