@@ -6,10 +6,10 @@ class NavBar extends Component{
 		return(
 			<div className="navigation">
 				<ul>
-					<li><Link to="/">welcome</Link></li>
-					<li><Link to="/about">about</Link></li>
-					<li><Link to="/portfolio">portfolio</Link></li>
-					<li><Link to="/contact">contact</Link></li>
+					<li className="nav-item"><Link to="/">welcome</Link></li>
+					<li className="nav-item"><Link to="/about">about</Link></li>
+					<li className="nav-item"><Link to="/portfolio">portfolio</Link></li>
+					<li className="nav-item"><Link to="/contact">contact</Link></li>
 				</ul>
 			</div>
 		)

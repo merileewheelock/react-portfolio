@@ -3,15 +3,29 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: white;
   margin: 10px 0 10px 0;
-  border-bottom: solid 2px gray;
 }
 
 /* line 10, ../compass/sass/_navbar.scss */
 li {
   display: inline;
   margin-right: 20px;
+}
+
+/* line 15, ../compass/sass/_navbar.scss */
+a {
+  color: gray;
+}
+
+/* line 19, ../compass/sass/_navbar.scss */
+a:hover {
+  color: #078C49;
+  text-decoration: none;
+}
+
+/* line 24, ../compass/sass/_navbar.scss */
+a:active {
+  color: #FCF294;
 }
 
 /* line 1, ../compass/sass/_home.scss */
@@ -112,17 +126,24 @@ i {
 }
 
 /* line 8, ../compass/sass/styles.scss */
-body, html {
+body {
   height: 100%;
+  background-color: lightgray;
+  background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
 }
 
-/* line 12, ../compass/sass/styles.scss */
+/* line 14, ../compass/sass/styles.scss */
+.main-page {
+  margin-top: 100px;
+}
+
+/* line 18, ../compass/sass/styles.scss */
 .page {
   margin-top: 100px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* line 17, ../compass/sass/styles.scss */
+/* line 23, ../compass/sass/styles.scss */
 .page-header {
   font-family: "Josefin Sans", sans-serif;
 }
