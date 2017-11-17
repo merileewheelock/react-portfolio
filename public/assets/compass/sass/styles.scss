@@ -22,4 +22,11 @@ body{
 
 .page-header{
 	font-family: $main-font;
+	border-bottom: 1px solid lightgray;
+	padding: 10px;
+}
+
+.text{
+	font-size: 14px;
+	font-family: $body-font;
 }

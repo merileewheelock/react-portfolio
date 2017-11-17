@@ -6,14 +6,14 @@ class About extends Component{
 			<div className="page container">
 				<h1 className="page-header text-center">about</h1>
 				<div className="row">
-					<div className="col-sm-6">
+					<div className="col-sm-6 text">
 						<p>Full-stack web developer trained at <a href="http://www.digitalcrafts.com/">DigitalCrafts</a> in Atlanta, GA. I am also a proud graduate from the Georgia Institute of Technology. I recently moved to beautiful Sunnyvale, CA.</p>
 					</div>
-					<div className="col-sm-6">
+					<div className="col-sm-6 text">
 						<p>I am passionate about organized code and clean layouts. Outside of coding, I enjoy hiking with my dog, traveling with my husband, and losing myself in books.</p>
 					</div>
 				</div>
-				<p>Below are some of the areas in which I am trained.</p>
+				<p className="text">Below are some of the areas in which I am trained.</p>
 				<div className="row text-center skills-row">
 					<div className="col-sm-3 col-xs-4">
 						<div className="skill-name">aws</div>

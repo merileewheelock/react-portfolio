@@ -19,7 +19,7 @@ a {
 
 /* line 19, ../compass/sass/_navbar.scss */
 a:hover {
-  color: #078C49;
+  color: #A9FFAF;
   text-decoration: none;
 }
 
@@ -92,12 +92,6 @@ i {
 }
 
 /* line 14, ../compass/sass/_projects.scss */
-.project-text {
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-}
-
-/* line 19, ../compass/sass/_projects.scss */
 .message {
   margin: auto;
   background: #FCF294;
@@ -146,4 +140,12 @@ body {
 /* line 23, ../compass/sass/styles.scss */
 .page-header {
   font-family: "Josefin Sans", sans-serif;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+}
+
+/* line 29, ../compass/sass/styles.scss */
+.text {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
 }
