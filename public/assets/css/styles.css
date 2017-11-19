@@ -6,24 +6,24 @@
   margin: 10px 0 10px 0;
 }
 
-/* line 10, ../compass/sass/_navbar.scss */
+/* line 8, ../compass/sass/_navbar.scss */
 li {
   display: inline;
   margin-right: 20px;
 }
 
-/* line 15, ../compass/sass/_navbar.scss */
+/* line 13, ../compass/sass/_navbar.scss */
 a {
   color: gray;
 }
 
-/* line 19, ../compass/sass/_navbar.scss */
+/* line 17, ../compass/sass/_navbar.scss */
 a:hover {
   color: #A9FFAF;
   text-decoration: none;
 }
 
-/* line 24, ../compass/sass/_navbar.scss */
+/* line 22, ../compass/sass/_navbar.scss */
 a:active {
   color: #FCF294;
 }
