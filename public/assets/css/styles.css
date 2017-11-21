@@ -80,7 +80,7 @@ i {
 
 /* line 2, ../compass/sass/_projects.scss */
 .project-img img {
-  border: 3px #A9FFAF solid;
+  border: 3px #078C49 solid;
   opacity: 0.9;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -133,17 +133,15 @@ body {
 /* line 18, ../compass/sass/styles.scss */
 .page {
   margin-top: 100px;
-  background-color: rgba(255, 255, 255, 0.4);
 }
 
-/* line 23, ../compass/sass/styles.scss */
+/* line 22, ../compass/sass/styles.scss */
 .page-header {
   font-family: "Josefin Sans", sans-serif;
-  border-bottom: 1px solid lightgray;
   padding: 10px;
 }
 
-/* line 29, ../compass/sass/styles.scss */
+/* line 28, ../compass/sass/styles.scss */
 .text {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
